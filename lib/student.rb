@@ -58,4 +58,8 @@ class Student < InteractiveRecord
     DB[:conn].execute(sql)
   end
 
+  def find_by
+
+  end
+
 end
