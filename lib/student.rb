@@ -58,7 +58,7 @@ class Student < InteractiveRecord
     DB[:conn].execute(sql)
   end
 
-  def find_by
+  def self.find_by
 
   end
 
